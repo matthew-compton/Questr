@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_list_item_drawer"
+            android:clickable="false"
+            android:minHeight="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/quest_name"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                />
+
+            <TextView
+                android:id="@+id/fragment_quest_nameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/padding_small"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                tools:text="Save the Princess"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_list_item_drawer"
+            android:clickable="false"
+            android:minHeight="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/quest_description"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                />
+
+            <TextView
+                android:id="@+id/fragment_quest_descriptionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/padding_small"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                tools:text="Go to a castle and find a princess"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_list_item_drawer"
+            android:clickable="false"
+            android:minHeight="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/quest_requirement"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                />
+
+            <TextView
+                android:id="@+id/fragment_quest_requirementTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/padding_small"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                tools:text="Take a picture of the princess."
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_list_item_drawer"
+            android:clickable="false"
+            android:minHeight="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/quest_experience_reward"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                />
+
+            <TextView
+                android:id="@+id/fragment_quest_experienceRewardTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/padding_small"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                tools:text="1000"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_list_item_drawer"
+            android:clickable="false"
+            android:minHeight="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/quest_is_active"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                />
+
+            <CheckBox
+                android:id="@+id/fragment_quest_isActiveCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/padding_small"
+                android:clickable="false"
+                tools:checked="true"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            />
+
+        <LinearLayout
+            android:id="@+id/fragment_quest_questGiverLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_list_item_drawer"
+            android:clickable="true"
+            android:minHeight="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/quest_quest_giver"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                />
+
+            <TextView
+                android:id="@+id/fragment_quest_questGiverTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/padding_small"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                tools:text="Nobr"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

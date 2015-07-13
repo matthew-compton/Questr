@@ -1,21 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nobr.android.questr" >
+<manifest
+    package="com.nobr.android.questr"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
-        android:allowBackup="true"
+        android:name=".BaseApplication"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        android:logo="@drawable/ic_logo"
+        android:theme="@style/AppTheme">
 
-                <category android:name="android.intent.category.LAUNCHER" />
+        <activity
+            android:name=".controllers.LoginActivity"
+            android:label="@string/login_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".controllers.drawer.DrawerActivity"
+            android:label="@string/drawer_title"
+            />
+
+        <activity
+            android:name=".controllers.QuestActivity"
+            android:label="@string/quest_title"
+            />
+
+        <activity
+            android:name=".controllers.HeroActivity"
+            android:label="@string/hero_title"
+            />
+
     </application>
 
 </manifest>

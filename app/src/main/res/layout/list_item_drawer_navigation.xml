@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/list_item_drawer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_list_item_drawer"
+    android:clickable="true"
+    android:focusable="true"
+    android:minHeight="@dimen/list_item_drawer_header_minHeight">
+
+    <TextView
+        android:id="@+id/list_item_drawer_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="@dimen/list_item_drawer_title_paddingLeft"
+        android:textAllCaps="true"
+        android:textColor="@color/primary_text"
+        tools:text="Navigation item title"
+        />
+
+</FrameLayout>

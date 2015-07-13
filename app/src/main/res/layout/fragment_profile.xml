@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_list_item_drawer"
+            android:clickable="false"
+            android:minHeight="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/profile_name"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                />
+
+            <TextView
+                android:id="@+id/fragment_profile_nameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/padding_small"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                tools:text="Nobr"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_list_item_drawer"
+            android:clickable="false"
+            android:minHeight="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/profile_experience"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                />
+
+            <TextView
+                android:id="@+id/fragment_profile_experienceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/padding_small"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                tools:text="0"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            />
+
+        <LinearLayout
+            android:id="@+id/fragment_profile_questsCompletedLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_list_item_drawer"
+            android:clickable="true"
+            android:minHeight="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/profile_quests_completed"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                />
+
+            <TextView
+                android:id="@+id/fragment_profile_questsCompletedTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/padding_small"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                tools:text="0"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            />
+
+        <LinearLayout
+            android:id="@+id/fragment_profile_questsAcceptedLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_list_item_drawer"
+            android:clickable="true"
+            android:minHeight="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/profile_quests_accepted"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                />
+
+            <TextView
+                android:id="@+id/fragment_profile_questsAcceptedTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/padding_small"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                tools:text="0"
+                />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            />
+
+        <LinearLayout
+            android:id="@+id/fragment_profile_questsIssuedLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_list_item_drawer"
+            android:clickable="true"
+            android:minHeight="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/profile_quests_issued"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                />
+
+            <TextView
+                android:id="@+id/fragment_profile_questsIssuedTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/padding_small"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_medium"
+                tools:text="0"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

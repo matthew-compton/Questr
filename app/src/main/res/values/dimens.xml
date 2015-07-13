@@ -1,5 +1,20 @@
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Font Sizes -->
+    <dimen name="text_small">8sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_large">24sp</dimen>
+    <dimen name="toolbar_title">18sp</dimen>
+
+    <!-- Padding Sizes -->
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">32dp</dimen>
+
+    <!-- Nav Drawer -->
+    <dimen name="drawer_layout_width">304dp</dimen>
+    <dimen name="list_item_drawer_header_minHeight">68dp</dimen>
+    <dimen name="list_item_drawer_navigation_minHeight">64dp</dimen>
+    <dimen name="list_item_drawer_title_paddingLeft">32dp</dimen>
+
 </resources>
